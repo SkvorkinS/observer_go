@@ -10,6 +10,7 @@ type Client struct {
 	Birthday       string `json:"birthday,omitempty"`
 	Phone          string `json:"phone,omitempty"`
 	FormatedPhone  string `json:"formatedPhone,omitempty"`
+	testv05        string
 }
 
 type Deal struct {
