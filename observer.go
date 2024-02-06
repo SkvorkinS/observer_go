@@ -10,8 +10,7 @@ type Client struct {
 	Birthday       string `json:"birthday,omitempty"`
 	Phone          string `json:"phone,omitempty"`
 	FormatedPhone  string `json:"formatedPhone,omitempty"`
-	testv05        string
-}
+	UnFormatedPhone  string `json:"formatedPhone,omitempty"`
 
 type Deal struct {
 	ID                  int     `json:"id,omitempty"`
